@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+<link rel="stylesheet" href="" type="text/css" media="screen"/>
+<title>Simply Me : Resume</title>
+
+<style media="screen" type="text/css">
+
+p {
+   font-family: Arial, Helvetica, sans-serif;
+   color: #666666;
+   text-align: justify;
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <header class="body">
+    </header>
+
+    <section class="body">
+    
+    <div style="text-align: center;">
+    <iframe src="https://docs.google.com/file/d/0B3o-a_7h0VNMZHdWejlmNjJFVlk/preview" width="740" height="540"></iframe>
+    </div>
+
+    </section>
+
+    <footer class="body">
+    </footer>
+
+</body>
+
+</html>
