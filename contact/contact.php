@@ -1,3 +1,4 @@
+//Used only when there is a hosting server to install Apache or Nginx server and PHP.
 <?php
     $name = $_POST['name'];
     $email = $_POST['email'];
