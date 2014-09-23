@@ -9,10 +9,20 @@
 
 <style media="screen" type="text/css">
 
+h2 {
+   font-family: Arial, Helvetica, sans-serif;   
+   color:#2187bb;
+   text-align: justify;
+   margin:0 auto;
+   width:540px;
+}
+
 p {
    font-family: Arial, Helvetica, sans-serif;
    color: #666666;
    text-align: justify;
+   margin:0 auto;
+   width:540px;
 }
 
 </style>
@@ -25,9 +35,20 @@ p {
     </header>
 
     <section class="body">
-    
+    <p><b><h2>TOOLS I HAVE USED:</h2></b>
+    <p>Axure, Appserv 2.5.10, SurveyMonkey, MySQL Server, Apache Web Server, Adobe Macromedia Dreamweaver, Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe Acrobat, Putty, Remote Desktop Connection, NJStar Chinese WP, SPSS, Microsoft Visio, EndNote, Apple QuickTime, Microsoft Project Central, Microsoft Project Central Server, Windows 2000 Server, SQL 7 Server, Microsoft FrontPage, Notepad, Command Prompt, Microsoft Project Management, Microsoft Office</p>
+    </br>
+    <p><b><h2>METHODS I HAVE USED:</h2></b>  
+    <p>Software Development Methodology, SDLC, Quantitative and Qualitative Research, Heuristic Evaluation, Scenario-Based Evaluation, Experimental Design, Survey, Interview, Think Aloud, Affinity Diagramming/Mind-Mapping, Scenarios, Storyboarding/Sketching, Wireframing, Rapid Prototyping, Usability Testing, Pre-Processing of Data, Quantitative and Qualitative Data Analysis</p>
+    </br>
+    <p><b><h2>LANGUAGES I SPEAK WHEN INTERACTING WITH COMPUTERS:</h2></b>
+    <p>Unix, PHP, SQL, HTML, CSS, JavaScript, Visual Basic 6, Active Server Pages 3</p>
+    </br>
+    <p><b><h2>WHAT I DABBLE WITH:</h2></b>
+    <p>Balsamiq, Microsoft Visual Studio, Kinect for Windows SDK v1.8, Kinect for Windows Developer Toolkit v1.8, Adobe Creative Suite, Git Bash, Android SDK, Java SDK, Cloud Technologies, Reinventing Software Development Methodology, Git, Android, jQuery, Java, Objective C, C#, C++, C, Ruby, XML, Python, Linux</p>
+    </br>
     <div style="text-align: center;">
-    <iframe src="https://docs.google.com/file/d/0B3o-a_7h0VNMZHdWejlmNjJFVlk/preview" width="740" height="540"></iframe>
+    <iframe src="https://docs.google.com/file/d/0B3o-a_7h0VNMZHdWejlmNjJFVlk/preview" width="540" height="540"></iframe>
     </div>
 
     </section>
