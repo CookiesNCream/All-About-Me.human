@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+<link href="" media="screen" rel="stylesheet" type="text/css"></link>
+<title>Simply Me : Connect</title>
+
+<style media="screen" type="text/css">
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    text-align: justify;
+    margin:0 auto;
+    width:450px;
+}
+    
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    text-align: justify;
+}
+
+contact-form-button contact-form-button-submit {
+    width:127px;
+    height:38px;
+    cursor:pointer; 
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <header class="body">
+    </header>
+
+    <section class="body">
+    
+    <p><b>Follow me @:</b></br>
+
+    <a href="https://twitter.com/TweetJustL"><b>My Twitter Handle</b></a></br>
+
+    <a href="https://learni.st/users/332092"><b>My Learnist Handle</b></a></br>
+
+    <a href="http://www.pinterest.com/email2enigma/"><b>My Pinterest Handle</b></a></p>
+
+    </br>
+   
+    <p><b>Check out what I'm up to @:</b></br>
+
+    <a href="https://github.com/CookiesNCream"><b>GitHub</b></a></br>
+
+    <a href="https://dribbble.com/tweetjustl"><b>Dribbble</b></a></br>
+
+    <a href="https://speakerdeck.com/cookiesncream"><b>Speaker Deck</b></a></br>
+    
+    <a href=" http://www.behance.net/cookiesncream"><b>Behance</b></a></br>
+    
+    <a href="http://www.adobe.com/downloads.html?promoid=JZEFS"><b>Adobe Creative Cloud</b></a></br>
+
+    <a href="https://email2enigma.visualstudio.com"><b>Visual Studio Online</b></a></p>  
+    
+    </br>
+    
+    <p><b>Write to me from here:</b></p>
+    
+    <form name='contact-form'>
+    
+    <p><label>Name*</label>
+    <input class='contact-form-name' id='ContactForm1_contact-form-name' name='name' size='30' value='' type='text' placeholder='Type Your Name Here'/>
+  
+    <label>Email*</label>
+    <input class='contact-form-email' id='ContactForm1_contact-form-email' name='email' size='30' value='' type='text' placeholder='Type Your Email Here'/>
+    
+    <label>Message*</label>
+    <textarea class='contact-form-email-message' cols='25' id='ContactForm1_contact-form-email-message' name='email-message' rows='5' placeholder='Type Your Message Here'></textarea></p>
+    </br>
+    <p><input class='contact-form-button contact-form-button-submit' id='ContactForm1_contact-form-submit' value='Send' type='button'/></p>
+    </br>
+    
+    <p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'></p>
+    <p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'></p>
+    
+    </form>
+    
+    </section>
+    
+    <footer class="body">
+    </br>
+    <div style="text-align: center;">
+    <iframe src="https://mapsengine.google.com/map/embed?mid=zquwSxG6op6M.khGq9C_5k_DE" width="740" height="480"></iframe>
+    </div>
+    </footer>
+
+</body>
+
+</html>
