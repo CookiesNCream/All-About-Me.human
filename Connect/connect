@@ -94,7 +94,7 @@ contact-form-button contact-form-button-submit {
     <footer class="body">
     </br>
     <div style="text-align: center;">
-    <iframe src="https://mapsengine.google.com/map/embed?mid=zquwSxG6op6M.khGq9C_5k_DE" width="740" height="480"></iframe>
+    <iframe src="google map url" width="740" height="480"></iframe>
     </div>
     </footer>
 
