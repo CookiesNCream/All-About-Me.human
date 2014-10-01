@@ -5,7 +5,7 @@
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     $from = $email; 
-    $to = 'type your email address here'; 
+    $to = 'email address'; 
     $human = $_POST['human'];
 
     $body = "From: $name\n E-Mail: $email\n Message: $message\n";
