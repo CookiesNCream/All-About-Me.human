@@ -69,7 +69,7 @@ contact-form-button contact-form-button-submit {
     </br>
     
     <p><b>Paragraph Text</b></p>
-    <!--Used only when the Google contact form widget is installed and hidden from appearing on every web page of a web site on Blogger-->
+    <!--Used only when the Google contact form widget is installed and hidden from appearing on every web page of a web site on Blogger.-->
     <form name='contact-form'>
     
     <p><label>Name*</label>
