@@ -9,4 +9,4 @@ Besides all that, I also enjoy reading and tinkering with computers.
 
 License
 =======
-<a href="">see license</a>
+<a href="https://github.com/CookiesNCream/Simply-Me/blob/master/LICENSE.md">See LICENSE.</a>
