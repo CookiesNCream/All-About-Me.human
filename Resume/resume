@@ -48,7 +48,7 @@ p {
     <p>Paragraph Text</p>
     </br>
     <div style="text-align: center;">
-    <iframe src="file url" width="540" height="540"></iframe>
+    <iframe src="embed file url" width="540" height="540"></iframe>
     </div>
 
     </section>
