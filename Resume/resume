@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
 <link rel="stylesheet" href="" type="text/css" media="screen"/>
-<title>Simply Me : Resume</title>
+<title>Web Site Title : Page Title</title>
 
 <style media="screen" type="text/css">
 
@@ -35,17 +35,17 @@ p {
     </header>
 
     <section class="body">
-    <p><b><h2>TOOLS I HAVE USED:</h2></b>
-    <p>Axure, Appserv 2.5.10, SurveyMonkey, MySQL Server, Apache Web Server, Adobe Macromedia Dreamweaver, Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe Acrobat, Putty, Remote Desktop Connection, NJStar Chinese WP, SPSS, Microsoft Visio, EndNote, Apple QuickTime, Microsoft Project Central, Microsoft Project Central Server, Windows 2000 Server, SQL 7 Server, Microsoft FrontPage, Notepad, Command Prompt, Microsoft Project Management, Microsoft Office</p>
+    <p><b><h2>Heading Text:</h2></b>
+    <p>Paragraph Text</p>
     </br>
-    <p><b><h2>METHODS I HAVE USED:</h2></b>  
-    <p>Software Development Methodology, SDLC, Quantitative and Qualitative Research, Heuristic Evaluation, Scenario-Based Evaluation, Experimental Design, Survey, Interview, Think Aloud, Affinity Diagramming/Mind-Mapping, Scenarios, Storyboarding/Sketching, Wireframing, Rapid Prototyping, Usability Testing, Pre-Processing of Data, Quantitative and Qualitative Data Analysis</p>
+    <p><b><h2>Heading Text:</h2></b>  
+    <p>Paragraph Text</p>
     </br>
-    <p><b><h2>LANGUAGES I SPEAK WHEN INTERACTING WITH COMPUTERS:</h2></b>
-    <p>Unix, PHP, SQL, HTML, CSS, JavaScript, Visual Basic 6, Active Server Pages 3</p>
+    <p><b><h2>Heading Text:</h2></b>
+    <p>Paragraph Text</p>
     </br>
-    <p><b><h2>WHAT I DABBLE WITH:</h2></b>
-    <p>Balsamiq, Microsoft Visual Studio, Kinect for Windows SDK v1.8, Kinect for Windows Developer Toolkit v1.8, Adobe Creative Suite, Git Bash, Android SDK, Java SDK, Cloud Technologies, Reinventing Software Development Methodology, Git, Android, jQuery, Java, Objective C, C#, C++, C, Ruby, XML, Python, Linux</p>
+    <p><b><h2>Heading Text:</h2></b>
+    <p>Paragraph Text</p>
     </br>
     <div style="text-align: center;">
     <iframe src="file url" width="540" height="540"></iframe>
