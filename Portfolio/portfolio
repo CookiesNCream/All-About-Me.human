@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
 <link rel="stylesheet" href="" type="text/css" media="screen"/>
-<title>Simply Me : Portfolio</title>
+<title>Web Site Title : Page Title</title>
 
 <style media="screen" type="text/css">
 
@@ -34,32 +34,26 @@ p {
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-<p>*Project: Online Experiment Data Collection Tool</br>
-    Number of People Involved: 1 (Just Me)</br>
-    Programming Languages: Unix, PHP, SQL, HTML, CSS, JavaScript</br>
-    Software: MySQL Server, Apache Web Server, Adobe Macromedia Dreamweaver, Adobe Photoshop,
-    Adobe Illustrator, Adobe Fireworks, Putty,
-    Remote Desktop Connection, NJStar Chinese WP,
-    SPSS, Microsoft Excel, Microsoft Visio, EndNote, Adobe Acrobat</p>    
+<p>Paragraph Text</br>
+    Text</br>
+    Text</br>
+    Text</p>    
 </div>
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-    <p>*Project: Workshop Promotion Web Site</br>
-    Number of People Involved: 1 (Just Me)</br>
-    Programming Languages: HTML, CSS, JavaScript</br>
-    Software: Adobe Macromedia Dreamweaver, Adobe Photoshop,
-    Adobe Illustrator, Adobe Fireworks, Adobe Acrobat,
-    Microsoft Excel, SurveyMonkey</p>
+    <p>Paragraph Text</br>
+    Text</br>
+    Text</br>
+    Text</p>
 </div>
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-    <p>*Project: Search Engine Optimization Network Content Management System</br>
-    Number of People Involved: 2 (1 Student and Me as Supervisor)</br>
-    Programming Languages: PHP, SQL, HTML, CSS, JavaScript</br>
-    Software: Appserv 2.5.10, Macromedia Dreamweaver 8, EMS SQL Manager 2007, Editplus 3,
-    FileZilla, Adobe Photoshop CS2, CamStudio</p>
+    <p>Paragraph Text</br>
+    Text</br>
+    Text</br>
+    Text</p>
 </div>
 <div class="floated_img">
 <div class="separator" style="clear: both; text-align: center;">
@@ -69,41 +63,41 @@ p {
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-    <p>*Project: School Library System Automation</br>
-    Number of People Involved: 3 (2 Students and Me as Supervisor)</br>
-    Programming Languages: PHP, SQL, HTML, CSS, JavaScript</br>
-    Software: Appserv 2.5.10, Macromedia Dreamweaver 8, Adobe Photoshop CS4, Adobe Illustrator CS4</p>
+    <p>Paragraph Text</br>
+    Text</br>
+    Text</br>
+    Text</p>
 </div>
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-    <p>*Project: iPhone Game for Learning Thai Characters</br>
-    Number of People Involved: 2 (1 Student and Me as Supervisor)</br>
-    Programming Languages: Objective-C</br>
-    Software: Adobe Photoshop CS2, Xcode version 3.1, Cocos2D, Interface Builder, iPhone Simulator 4.3, iMovie</p>
+    <p>Paragraph Text</br>
+    Text</br>
+    Text</br>
+    Text</p>
 </div>
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-    <p>*Project: Japanese Language Software for Travellers to Japan</br>
-    Number of People Involved: 2 (1 Student and Me as Supervisor)</br>
-    Programming Languages: HTML5, CSS3, JavaScript</br>
-    Software: Adobe Flash CS4, Adobe Photoshop CS4, Eclipse</p>
+    <p>Paragraph Text</br>
+    Text</br>
+    Text</br>
+    Text</p>
 </div>
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a> 
-<p>*Prototypes</br> Axure RP Pro 6.5</p>
+<p>Paragraph Text</br> Text</p>
 </div>
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1"> 
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-    <p>*Wireframes</br> Axure RP Pro 6.5</p>
+    <p>Paragraph Text</br> Text</p>
 </div>
 <div class="floated_img">
 <a href="view image or new page url" imageanchor="1">
 <img src="display image url" alt="view image or new page url" width="300" height="250"/></a>
-    <p>*Sketches</br> Water Color Pen</p>
+    <p>Paragraph Text</br> Text</p>
 </div>
 
 </body>
