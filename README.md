@@ -1,5 +1,4 @@
-Simply-Me
-=========
+# Simply-Me
 
 It is nice to be part of the GitHub community!
 Here is how I would like to introduce myself. 
