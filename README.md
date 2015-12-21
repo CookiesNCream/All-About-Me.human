@@ -5,4 +5,4 @@ It is nice to be part of the GitHub community.
 
 # License
 
-[See LICENSE]
+[See LICENSE](https://github.com/CookiesNCream/Simply-Me/blob/gh-pages/LICENSE.md)
