@@ -15,11 +15,17 @@
 
 <!-- Embeds stylesheets within html document -->
 <style type="text/css" media="screen">
-body, html {
-    height: 100%;
-    margin: 0px; 
-    overflow-x: hidden;
+* { 
+  margin:0px; 
+  padding: 0px; 
 }
+       
+body, html {
+  height: 100%;
+  margin: 0px; 
+  overflow-x: hidden;
+}
+    
 /* Add a background color to the navigation bar */
 .navbar {
   overflow: hidden;
@@ -29,6 +35,7 @@ body, html {
   font-size: 30px;
   font-family: "Luckiest Guy", Merriweather, Permanent Marker;
 }
+    
 /* Add styles to the navigation links in the navigation bar */
 .navbar a {
   float: right;
@@ -40,19 +47,23 @@ body, html {
   font-size: 18px;
   font-family: "Comic Sans", Helvetica, Arial;
 }
+    
 /* Change the opacity of the navigation links on hover */
 .navbar a:hover {
   opacity: 0.5;
 }
+    
 .mySlides {
   display:none
 }
+    
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
   position: relative;
   margin: 0px;
 }
+    
 /* Caption text */
 .text {
   color: #EEEEEE;
@@ -63,6 +74,7 @@ body, html {
   width: 100%;
   text-align: center;
 }
+    
 /* Number text (1/3 etc) */
 .numbertext {
   color: #EEEEEE;
@@ -71,6 +83,7 @@ body, html {
   position: absolute;
   top: 0;
 }
+    
 /* The dots */
 .dot {
   height: 13px;
@@ -81,10 +94,12 @@ body, html {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+    
 /* When dots are highlighted */
 .active {
   background-color: #66BBDD;
 }
+    
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -92,27 +107,32 @@ body, html {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+    
 /* Fading animation for Safari, OS X, iOS, and Linux applications */
 @-webkit-keyframes fade {
   from {opacity: .5} 
   to {opacity: 1}
 }
+    
 @keyframes fade {
   from {opacity: .5} 
   to {opacity: 1}
 }
+    
 .parallax1 {
   /* Image used */
     background-image: url("images/img_parallax1.jpg");
   
   /* Specific height */
     min-height: 500px;
+    
   /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+    
 div.transbox1 {
   margin: 0px;
   background-color: #FFFFFF;
@@ -121,11 +141,13 @@ div.transbox1 {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+    
 div.transbox1 p {
   margin: 0px;
   font-weight: bold;
   color: #000000;
 }
+    
 div.background1 {
   margin: 0px;
   background-color:#66BBDD;
@@ -133,18 +155,21 @@ div.background1 {
   height: 250px;
   color: #FFFFFF;
 }
+    
 .parallax2 {
   /* Image used */
     background-image: url("images/img_parallax2.jpg");
   
   /* Specific height */
     min-height: 500px;
+    
   /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+    
 div.transbox2 {
   margin: 0px;
   background-color: #FFFFFF;
@@ -153,11 +178,13 @@ div.transbox2 {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+    
 div.transbox2 p {
   margin: 0px;
   font-weight: bold;
   color: #000000;
 }
+    
 div.background2 {
   margin: 0px;
   background-color:#EEEEEE;
@@ -165,6 +192,7 @@ div.background2 {
   height: 250px;
   color: #000000;
 }
+    
 div.background3 {
   margin: 0px;
   background-color:#555555;
@@ -173,6 +201,7 @@ div.background3 {
   height: 50px;
   color: #FFFFFF;
 }
+    
 .social-media-buttons a {
     margin: 0px;
     background-color: #FFFFFF;
@@ -182,6 +211,7 @@ div.background3 {
     height: 150px;
     color: #000000;
 }
+    
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -191,25 +221,31 @@ div.background3 {
   margin: 5px 2px;
   border-radius: 50%;
 }
+    
 .fa:hover {
     opacity: 0.5;
 }
+    
 .fa-linkedin {
   background: #555555;
   color: #FFFFFF;
 }
+    
 .fa-twitter {
   background: #555555;
   color: #FFFFFF;
 }
+    
 .fa-pinterest-p {
   background: #555555;
   color: #FFFFFF;
 }
+    
 .fa-facebook-official {
   background: #555555;
   color: #FFFFFF;
 }
+    
 #topBtn {
   display: none;
   position: fixed;
@@ -224,29 +260,37 @@ div.background3 {
   padding: 15px;
   border-radius: 50px;
 }
+    
 #topBtn:hover {
   opacity: 0.5;
 }
+    
 /* Media Queries 
 =================================================================================== */
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px @screen-sm-min) { ... }
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px @screen-md-min) { ... }
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px @screen-lg-min) { ... }
+
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if necessary. */
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
     }
 }
+    
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+    
 /* Limit CSS to smaller range of devices */
 @media (max-width: 767px @screen-xs-max) { ... }
 @media (min-width: 768px @screen-sm-min) and (max-width: 991px @screen-sm-max) { ... }
@@ -255,9 +299,11 @@ div.background3 {
 </style>
 <title>Simply Me</title>
 </head>
+    
 <body>
   <div class="container-fluid">
     <header class="body">
+        
       <!-- Navigation -->
       <nav class="navbar"><br>
       <strong>Simply Me</strong>
@@ -268,6 +314,7 @@ div.background3 {
       </nav>
       
       <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+        
       <!-- Automatic slideshow -->
       <div class="slideshow-container" id="projects">
       <div class="mySlides fade">
@@ -295,6 +342,7 @@ div.background3 {
       </div>
         
     </header>
+      
     <section class="body">
       
       <div class="parallax1"></div>     
@@ -325,6 +373,7 @@ div.background3 {
     </footer>
     <div class="background3"><br>© 2015 Linda Lim. All Rights Reserved.</div>
   </div>
+    
 <!-- Embeds javascripts within html document -->
 <script type="text/javascript" media="screen">
 var slideIndex = 0;
@@ -345,6 +394,7 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 1000); // Change image every 1 second
 }
+
 // When the user scrolls down 20px from the top of the HTML document, show the button
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -354,12 +404,14 @@ function scrollFunction() {
         document.getElementById("topBtn").style.display = "none";
     }
 }
+    
 // When the user clicks on the button, scroll to the top of the HTML document
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
 </script>
+    
 <!-- Scripts are downloaded as soon as they are downloaded in a random order without blocking the browser from parsing the rest of your html document -->
 <script type="text/javascript" src="path/to/script1.js" async></script> 
 <script type="text/javascript" src="path/to/script2.js" async></script>
@@ -367,5 +419,6 @@ function topFunction() {
 <!-- Scripts are downloaded as soon as they are downloaded in order (except for IE <= 9 so use "defer" for browsers above IE 9) without blocking the browser from parsing the rest of your html document -->
 <script type="text/javascript" src="path/to/script1.js" defer></script>
 <script type="text/javascript" src="path/to/script2.js" defer></script>
+    
 </body>  
 </html>
