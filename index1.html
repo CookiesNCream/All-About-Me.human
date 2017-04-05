@@ -1,0 +1,428 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<!-- Defines the web site content display and the character set -->
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+
+<!-- Enables the web site to work on all devices and screen resolutions -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Links external stylesheets to html document -->
+<link rel="icon" href="favicons/favicon.ico"  type="image/x-icon"/>
+<link rel="stylesheet" href="stylesheets/stylesheet.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" media="screen">
+
+<!-- Embeds stylesheets within html document -->
+<style type="text/css" media="screen">
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+/* Add a background color to the navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color:#66BBDD;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Luckiest Guy", Merriweather, Permanent Marker;
+}
+
+/* Add styles to the navigation links in the navigation bar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Comic Sans", Helvetica, Arial;
+}
+
+/* Change the opacity of the navigation links on hover */
+.navbar a:hover {
+  opacity: 0.5;
+}
+
+.mySlides {
+  display:none
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: 0px;
+}
+
+/* Caption text */
+.text {
+  color: #EEEEEE;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #EEEEEE;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #EEEEEE;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* When dots are highlighted */
+.active {
+  background-color: #66BBDD;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Fading animation for Safari, OS X, iOS, and Linux applications */
+@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+.parallax1 {
+  /* Image used */
+    background-image: url("images/img_parallax1.jpg");
+  
+  /* Specific height */
+    min-height: 500px;
+
+  /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.transbox1 {
+  margin: 0px;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 500px;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.transbox1 p {
+  margin: 0px;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.background1 {
+  margin: 0px;
+  background-color:#66BBDD;
+  width: 100%;
+  height: 250px;
+  color: #FFFFFF;
+}
+
+.parallax2 {
+  /* Image used */
+    background-image: url("images/img_parallax2.jpg");
+  
+  /* Specific height */
+    min-height: 500px;
+
+  /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.transbox2 {
+  margin: 0px;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 500px;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.transbox2 p {
+  margin: 0px;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.background2 {
+  margin: 0px;
+  background-color:#EEEEEE;
+  width: 100%;
+  height: 250px;
+  color: #000000;
+}
+
+div.background3 {
+  margin: 0px;
+  background-color:#555555;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  color: #FFFFFF;
+}
+
+.social-media-buttons a {
+    margin: 0px;
+    background-color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 150px;
+    color: #000000;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-linkedin {
+  background: #555555;
+  color: #FFFFFF;
+}
+
+.fa-twitter {
+  background: #555555;
+  color: #FFFFFF;
+}
+
+.fa-pinterest-p {
+  background: #555555;
+  color: #FFFFFF;
+}
+
+.fa-facebook-official {
+  background: #555555;
+  color: #FFFFFF;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #66BBDD;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+#topBtn:hover {
+  opacity: 0.5;
+}
+
+/* Media Queries 
+=================================================================================== */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px @screen-lg-min) { ... }
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if necessary. */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Limit CSS to smaller range of devices */
+@media (max-width: 767px @screen-xs-max) { ... }
+@media (min-width: 768px @screen-sm-min) and (max-width: 991px @screen-sm-max) { ... }
+@media (min-width: 992px @screen-md-min) and (max-width: 1199px @screen-md-max) { ... }
+@media (min-width: 1200px @screen-lg-min) { ... }
+
+</style>
+<title>Web Site Title : Page Title</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="body">
+
+      <!-- Navigation -->
+      <nav class="navbar"><br>
+      <strong>Simply Me</strong>
+        <a href="#connect">Connect</a>
+        <a href="#dabbles">Dabbles</a>
+        <a href="#projects">Projects</a>
+        <a href="#me">Me</a> 
+      </nav>
+      
+      <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+      <!-- Automatic slideshow -->
+      <div class="slideshow-container" id="projects">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/img_slide_one.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/img_slide_two.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/img_slide_three.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      </div>
+      
+      <!-- Group inline elements -->
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+        
+    </header>
+
+    <section class="body">
+      
+      <div class="parallax1"></div>     
+
+      <div class="parallax1">
+        <div class="transbox1" id="dabbles">
+        <p>What I dabble with....</p>
+        </div>
+        <div class="background1" id="me">Write + Code + Test + Empathize + Design = Solve problems without obvious solutions</div>
+      </div>
+      
+      <div class="parallax2"></div>
+
+      <div class="parallax2">
+        <div class="transbox2" id="connect">
+        <p>Contact form...</p>
+        </div>
+      </div>
+      
+    </section>
+    
+    <!-- Social Media Buttons with Inline Style--> 
+    <footer class="social-media-buttons" align="center"><br>
+       <a href="#"><i class="fa fa-linkedin"></i></a>
+       <a href="#"><i class="fa fa-twitter"></i></a>
+       <a href="#"><i class="fa fa-pinterest-p"></i></a>
+       <a href="#"><i class="fa fa-facebook-official"></i></a>
+       <br><address>Powered by <a href="#" target="_blank">Simply Me</a></address>
+       <br>
+    </footer>
+    <div class="background3"><br>© 2015 Linda Lim. All Rights Reserved.</div>
+  </div>
+
+<!-- Embeds javascripts within html document -->
+<script type="text/javascript" media="screen">
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 1000); // Change image every 1 second
+}
+
+// When the user scrolls down 20px from the top of the HTML document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("topBtn").style.display = "block";
+    } else {
+        document.getElementById("topBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the HTML document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!-- Scripts are downloaded as soon as they are downloaded in a random order without blocking the browser from parsing the rest of your html document -->
+<script type="text/javascript" src="path/to/script1.js" async></script> 
+<script type="text/javascript" src="path/to/script2.js" async></script>
+ 
+<!-- Scripts are downloaded as soon as they are downloaded in order (except for IE <= 9 so use "defer" for browsers above IE 9) without blocking the browser from parsing the rest of your html document -->
+<script type="text/javascript" src="path/to/script1.js" defer></script>
+<script type="text/javascript" src="path/to/script2.js" defer></script>
+
+</body>  
+</html>
