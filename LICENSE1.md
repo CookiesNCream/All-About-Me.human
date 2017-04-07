@@ -1,4 +1,4 @@
-           Copyright © 2015 Linda Lim. All Rights Reserved, except for the parts enumerated below:
+             Copyright © 2015 Linda Lim. All Rights Reserved, except for the parts enumerated below:
 
 1. The source code of the product is covered by [BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause).
 
