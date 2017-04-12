@@ -8,4 +8,4 @@ Here is how I would like to introduce myself. I ❤️ 🥚, 🍦, ☕️, 🍵,
 
 # License
 
-[See LICENSE](https://github.com/CookiesNCream/Simply-Me/blob/gh-pages/LICENSE.md)
+[See LICENSE](https://github.com/CookiesNCream/Simply-Me/blob/gh-pages/LICENSE1.md)
