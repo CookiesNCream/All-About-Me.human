@@ -11,4 +11,4 @@ Besides all that, I also enjoy reading and tinkering with computers, amongst a f
 
 # License
 
-[See LICENSE](https://github.com/CookiesNCream/Simply-Me/blob/master/LICENSE1.md)
+[See LICENSE](https://github.com/CookiesNCream/Simply-Me/blob/master/LICENSE.md)
