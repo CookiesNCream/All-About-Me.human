@@ -79,6 +79,21 @@
      opacity: 0.5;
    }
     
+   /* Parallax Design */  
+   .parallax {
+     /* Image used */
+     background-image: url("images/img_parallax.jpg");
+  
+     /* Specific height */
+     min-height: 500px;
+    
+     /* Parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }   
+      
    .mySlides {
      display:none
    }
@@ -373,7 +388,7 @@
       
       <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
       
-      <div class="parallax1"></div> 
+      <div class="parallax"></div> 
        
       <!-- Automatic slideshow -->
       <div class="slideshow-container" id="projects">
