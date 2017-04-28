@@ -363,15 +363,25 @@
    @media (min-width: 1200px @screen-lg-min) { ... }
 
    /* Turn off parallax scrolling for tablets and phones. Increase the pixels if necessary. */
-   @media only screen and (max-device-width: 1024px) {
+   @media only screen and (max-width: 1024px) {
      .parallax {
        background-attachment: scroll;
      }
    }
-    
+   
+   /* All mobile device and browser sizes */
+   @media only screen and (max-width: 767px) {
+     .container-fluid {
+       width: 94%;
+       margin: 0 auto;
+     }
+   }   
+      
    /* On smaller screens, decrease text size */
    @media only screen and (max-width: 300px) {
-     .text {font-size: 11px}
+     .text {
+       font-size: 11px;
+     }
    }
     
    /* Limit CSS to smaller range of devices */
